@@ -1,0 +1,288 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: beige;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e8e8e7;
+}
+
+.news .news-hd {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e8e8e7;
+}
+
+.news .news-hd h5 {
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.news .news-hd a {
+    float: right;
+}
+
+.news .news-hd a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    color: #666681;
+    margin-left: 5px;
+}
+
+.news .news-bd ul {
+    margin-top: 5px;
+}
+
+.news .news-bd ul li {
+    height: 25px;
+    line-height: 25px;
+    margin-left: 17px;
+}
+
+.news .news-bd ul li a {
+    font-size: 12px;
+    color: #666666;
+}
+
+.lifeservice {
+    height: 210px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 62.5px;
+    height: 70px;
+    border: 1px solid #e8e8e7;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    background: url(/images/icons.png) no-repeat -17px -16px;
+    margin: 14px 20px 0;
+}
+
+.lifeservice ul li p {
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+.recommend {
+    width: 100%;
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recommend .rec-lf {
+    float: left;
+    width: 204px;
+    height: 100%;
+    background-color: #5c5251;
+}
+
+.recommend .rec-lf img {
+    margin: 30px 0 0 60px;
+}
+
+.recommend .rec-ri ul li {
+    float: left;
+    background-color: #ebebeb;
+}
+
+.recommend .rec-ri ul li:nth-child(-n+4)::after {
+    content: '';
+    display: block;
+    float: left;
+    width: 1px;
+    height: 143px;
+    margin-top: 10px;
+    background-color: #dddddd;
+}
+
+
+/* <!-- 猜你喜欢模块 start--> */
+
+.ylike {
+    height: 273px;
+    margin-top: 8px;
+}
+
+.ylike-top {
+    height: 38px;
+    line-height: 38px;
+}
+
+.ylike-top h4 {
+    float: left;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+
+.ylike-top span {
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: #666666;
+}
+
+.ylike-top span::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+    color: #a4a3aa;
+    margin: 0 20px 0 10px;
+}
+
+.ylike-js {
+    height: 233px;
+    background-color: #ffffff;
+}
+
+.ylike-js ul li {
+    float: left;
+    height: 233px;
+    width: 199px;
+}
+
+.ylike-js ul i {
+    display: block;
+    float: left;
+    width: 1px;
+    height: 60px;
+    margin-top: 163px;
+    background-color: #ededed;
+}
+
+.ylike-js ul li a img {
+    display: block;
+    margin: 10px auto 0px auto;
+}
+
+.ylike-js ul li a>span {
+    display: block;
+    margin: 2px 34px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.ylike-js ul li a h4 {
+    font-size: 18px;
+    color: #df3033;
+    margin-left: 34px;
+}
+
+.ylike-js ul li a h4>span {
+    font-size: 14px;
+}
+
+
+/* 楼层区 */
+
+.floor .w {
+    margin-top: 30px;
+}
+
+
+/* 家用电器模块 */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    font-size: 18px;
+    color: #c81623;
+    float: left;
+    font-weight: 400;
+}
+
+.tab_list {
+    font-size: 12px;
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.tab_list ul li a {
+    padding: 0 14px;
+}
+
+.box_bd {
+    height: 361px;
+    background-color: aliceblue;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul li {
+    float: left;
+    height: 33px;
+    font-size: 12px;
+    line-height: 33px;
+    padding: 0px 20px;
+    margin-left: 13px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col_210>a img {
+    margin-top: 13px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 2px solid #ededed;
+}
+
+.col_221 img {
+    border-bottom: 1px solid #ededed;
+}
+
+.col_219 {
+    width: 219px;
+    border-right: 1px solid #ededed;
+}
+
+.col_219 img {
+    border-bottom: 1px solid #ededed;
+}
